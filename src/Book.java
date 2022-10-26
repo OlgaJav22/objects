@@ -12,4 +12,7 @@ public class Book {
         return this.ageBook;
     }
 
+    public void setAgeBook(int ageBook) {
+        this.ageBook = ageBook;
+    }
 }
