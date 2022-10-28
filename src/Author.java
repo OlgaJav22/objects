@@ -12,4 +12,9 @@ public class Author {
     public String getFirstNameAuthor() {
         return this.firstNameAuthor;
     }
+
+    @Override
+    public String toString() {
+        return "Автор: " + this.firstNameAuthor + " " + this.lastNameAuthor + ".";
+    }
 }
