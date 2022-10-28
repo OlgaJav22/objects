@@ -10,6 +10,9 @@ public class Main {
 
         System.out.println(story);
         System.out.println(lyrics);
+        System.out.println(story.equals(lyrics));
+        System.out.println(story.hashCode());
+        System.out.println(lyrics.hashCode());
 
     }
 }
